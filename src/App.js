@@ -30,25 +30,25 @@ function App() {
       <section>
         <div className="circle"></div>
         <header>
-          <a  className="logo">
+          <a href="/" className="logo">
             <div className="toggle" onClick={toggleMenu}></div>
            <ul className="navigation">
 
            </ul>
-            <img src={Logo} />
+            <img src={Logo} text="imagel"/>
           </a>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Menu</a>
+              <a href="/">Menu</a>
             </li>
             <li>
-              <a href="#">What's New</a>
+              <a href="/">What's New</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="/">Contact</a>
             </li>
           </ul>
         </header>
@@ -86,17 +86,17 @@ function App() {
         </ul>
         <ul className="sci">
           <li>
-            <a href="#">
+            <a href="/">
               <img src={face}></img>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img src={twit}></img>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img src={ista}></img>
             </a>
           </li>
