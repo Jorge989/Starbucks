@@ -35,7 +35,7 @@ function App() {
            <ul className="navigation">
 
            </ul>
-            <img src={Logo} text="imagel"/>
+            <img src={Logo} alt=""/>
           </a>
           <ul>
             <li>
@@ -70,34 +70,34 @@ function App() {
             <a href="#">Leran More</a>
           </div>
           <div className="imgBox">
-            <img src={Starbucks} className="starbucks"></img>
+            <img src={Starbucks} alt=""className="starbucks"></img>
           </div>
         </div>
         <ul className="thumb">
           <li>
-            <img src={thumb1} onClick={() => {imgSlider(Starbucks);changeCircleColor('#017143')}}></img>
+            <img src={thumb1} alt=""onClick={() => {imgSlider(Starbucks);changeCircleColor('#017143')}}></img>
           </li>
           <li>
-            <img src={thumb2} onClick={() => {imgSlider(Starbucks1);changeCircleColor('#eb7495')}}></img>
+            <img src={thumb2}alt="" onClick={() => {imgSlider(Starbucks1);changeCircleColor('#eb7495')}}></img>
           </li>
           <li>
-            <img src={thumb3} onClick={() => {imgSlider(Starbucks2);changeCircleColor('#d752b1')}}></img>
+            <img src={thumb3} alt=""onClick={() => {imgSlider(Starbucks2);changeCircleColor('#d752b1')}}></img>
           </li>
         </ul>
         <ul className="sci">
           <li>
             <a href="/">
-              <img src={face}></img>
+              <img src={face}alt=""></img>
             </a>
           </li>
           <li>
             <a href="/">
-              <img src={twit}></img>
+              <img src={twit}alt=""></img>
             </a>
           </li>
           <li>
             <a href="/">
-              <img src={ista}></img>
+              <img src={ista}alt=""></img>
             </a>
           </li>
         </ul>
