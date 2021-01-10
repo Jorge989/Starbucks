@@ -30,7 +30,7 @@ function App() {
       <section>
         <div className="circle"></div>
         <header>
-          <a href="#" className="logo">
+          <a  className="logo">
             <div className="toggle" onClick={toggleMenu}></div>
            <ul className="navigation">
 
