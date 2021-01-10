@@ -67,7 +67,7 @@ function App() {
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially unchanged.
             </p>
-            <a href="#">Leran More</a>
+            <a href="/">Leran More</a>
           </div>
           <div className="imgBox">
             <img src={Starbucks} alt=""className="starbucks"></img>
